@@ -22,7 +22,7 @@ public class CommentServiceImpl implements CommentService {
       @Override
     public Comment saveComment(Comment comment) {
         Post post = restTemplateConfig.getRestTemplate().getForObject
-                ("http://PostApplication/api/posts/" + comment.getPostId(), Post.class);
+                ("http://POST-APPLICATION/api/posts/" + comment.getPostId(), Post.class);
 
         if(post!=null){
             //"!="  it's mean Not equal.
