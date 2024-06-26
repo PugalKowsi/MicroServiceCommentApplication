@@ -1,6 +1,7 @@
 spring:
   application:
-    name: Comment-Application
+    name: POST-SERVICE01
+
   datasource:
     url: jdbc:mysql://localhost:3306/commentdb
     username: root
